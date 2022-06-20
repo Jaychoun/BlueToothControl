@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E90FF</color>
+    <color name="colorPrimaryDark">#1E90FF</color>
+    <color name="colorAccent">#BEBEBE</color>
+    <color name="LightBlue">#1eb9ff</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue"> #87CEEB	</color>
+    <color name="grey41">#696969</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="DodgerBlue4">#104E8B</color>
+    <color name="back_ground">#00FFFFFF</color>
+    <color name="Red">#FF0000</color>
+    <color name="MyColor">#BEBEBE</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="LightSlateBlue">#8470FF</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="Goldenrod3">#CD9B1D</color>
+    <color name="Goldenrod4">#8B6914</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Blue_1">#4f68b0</color>
+</resources>

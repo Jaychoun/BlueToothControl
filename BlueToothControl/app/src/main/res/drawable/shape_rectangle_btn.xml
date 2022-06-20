@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Description：一个直角边框样式-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/DodgerBlue4"/>
+    <stroke android:color="@color/white"
+            android:width="0.25dp"/>
+</shape>

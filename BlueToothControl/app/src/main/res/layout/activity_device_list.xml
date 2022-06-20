@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:orientation="horizontal">
+
+     <TextView
+         android:id="@+id/blue_status"
+         android:text="请点击开始搜索"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="3dp"
+         android:layout_centerVertical="true"
+         android:textColor="#fff"
+         android:visibility="visible"
+         android:textSize="20sp" />
+
+        <!--layout_alignParentEnd 位置在右下角-->
+       <ProgressBar
+           android:id="@+id/myProgressBar"
+           android:layout_width="20dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentEnd="true"
+           android:visibility="invisible"
+           android:indeterminateTint="@color/white" />
+      </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title_new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="已配对设备"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_text_view"/>
+
+
+    <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/list_view_background" />
+
+
+    <TextView
+        android:id="@+id/title_new_devices2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未配对设备"
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_text_view"/>
+
+
+    <ListView
+        android:id="@+id/new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/list_view_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_scan"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/search4"
+            android:background="@drawable/ripple_rectangle_btn_2"/>
+
+        <ImageButton
+            android:onClick="OnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            android:src="@drawable/return4"
+            android:background="@drawable/ripple_rectangle_btn_2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

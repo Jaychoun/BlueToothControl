@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO：一个直角类型的水波纹按压效果-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/LightBlue">
+    <item android:drawable="@drawable/shape_rectangle_btn"/>
+</ripple>

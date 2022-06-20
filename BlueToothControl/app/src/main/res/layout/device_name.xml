@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--TODO：设备名TextView的水波纹按压效果 -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:padding="4dp"
+    android:background="@drawable/ripple_rectangle_btn" />
